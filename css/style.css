@@ -19,15 +19,15 @@ html{
 body{
     font-family: "Roboto" , sans-serif;
     min-width: 100vh;
-    background-color: aquamarine;
-    background-image: linear-gradient(gray,aquamarine);
+    background-color: #025464;
+    background-image: linear-gradient(#025464,aqua);
     display: flex;
     flex-direction: column;
 }
 header,footer{
     position: sticky;
-    background-color: blue;
-    color: azure;
+    background-color: #e57c23;
+    color: #f8f1f1;
     text-align: center;
 }
 header{
@@ -35,9 +35,9 @@ header{
 
 }
 nav{
-    background-color: blueviolet;
+    background-color: #ffea20;
     padding: 0.5rem;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid black;
     font-weight: bolder;
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +63,7 @@ footer{
 .card {
     scroll-margin-top: 8rem;
     width: min(100%,350px);
-    background-color: bisque;
+    background-color:#8b968a;
     border: 2px solid black;
     border-radius: 15px;
     padding: 1rem;
@@ -77,7 +77,7 @@ footer{
     flex-flow: column nowrap;
 }
 .card img{
-    border: 5px double red;
+    border: 5px double rgb(0, 0, 0);
     border-radius: 50%;
 }
 .card figcaption{
